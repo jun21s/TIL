@@ -38,7 +38,7 @@
   rebase 도 똑같이 해결함 git rebase --abort
 
 - 충돌 수정한 뒤 git add .
-  하고 git revase --continue 한 뒤에 main에 붙여서 필요없어진 것들을 git branch -d 하면 됨
+  하고 git revase --continue 한 뒤에 main에 붙여서 필요없어진 것들을 git branch -d 하면 됨 (강제 삭제 하고 싶을 떄는 git branch -D 이름)
 
 ## 7/6
 
@@ -90,3 +90,9 @@
 - Fork&Pull Request(PR)
   - Fork 남의 github repository를 내 것으로 가져오는 것
   - PR Fork로 가져온 남의 코드를 수정후 가져가 달라고 요청하는 것(내가 만든거 들고가서 넣어주세요)
+- stash
+  - stash 는 일종의 임시저장소(후입선출)
+  - 사용은 git stash
+  - git stash list 하면 stash 목록 확인
+  - git stash apply 하면 가장 최근의 stash들고옴
+  - git stash drop 하면 가장 최근의 stash 삭제
