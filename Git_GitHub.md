@@ -84,6 +84,7 @@
 - git push origin master
 - 용어
   - clone
+    - clone을 하고 싶을 때는 github의 주소를 복사 한 뒤에 clone하고 싶은 파일을 가서 마우스 우클릭 후 git bash here을 한 뒤에 git clone 해당주소
   - pull
   - fetch
 - Fork&Pull Request(PR)
