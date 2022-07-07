@@ -96,3 +96,5 @@
   - git stash list 하면 stash 목록 확인
   - git stash apply 하면 가장 최근의 stash들고옴
   - git stash drop 하면 가장 최근의 stash 삭제
+- head와 tag는 잘 모르겠음
+  - 다음에 다시 알아보기
