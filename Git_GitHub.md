@@ -96,5 +96,6 @@
   - git stash list 하면 stash 목록 확인
   - git stash apply 하면 가장 최근의 stash들고옴
   - git stash drop 하면 가장 최근의 stash 삭제
-- head와 tag는 잘 모르겠음
-  - 다음에 다시 알아보기
+- head와 tag
+  - head는 내가 현재 commit한 가장 최신의 상태
+  - tag는 branch 한 내용중에서 특정 부분을 북마킹 해놓은 거(빠르게 찾기위해서 작성자가 원하는 위치에 해놓은 것)
