@@ -33,6 +33,34 @@
 
 - 상속
 
+- fixed 는 스크롤을 내려도 항상 그 위치에 내용을 고정 시키는 언어
+
+- flex는 발달된 layout을 나타내는 방법.
+  - table 표를 만들어서 사용
+  - position 위치를 옮기는 것
+  - float 이미지를 글자 옆에 두는 법.
+  - flex 요소는 가장 발전된 레이아웃을 나누는 법
+    - flex요소를 사용하기 위해서는 두가지의 태그가 필요하다
+      <br>`<container>`<br>
+      `<item></item>`<br>
+      `<item></item>`<br>
+      `</container>`
+    - container에 부여해야되는 속성
+      - display
+      - flex-direction
+      - flex-wrap
+      - flex-flow
+      - justify-content
+      - align-items
+      - alitn-content
+    - item 요소에 부여해야 되는 속성
+      - order
+      - flex-grow
+      - flex-shrink
+      - flex-basis
+      - flex
+      - align-self
+
 ## 질문
 
 - style은 꼭 head에만 해야되는가?
