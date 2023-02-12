@@ -2,9 +2,9 @@
 
 # 오랜만에 해서 까먹어서 다시 정리
 -제일 처음에 커밋하기 위해 해야 하는 것
-  -1. git init
-  -2. git add *
-  -3. git commit -m '주석'
+  - 1. git init
+  - 2. git add *
+  - 3. git commit -m '주석'
 - 여기 밑에 3개는 그냥 복붙 하면 됨
   - 1. git remote add origin '깃허브 주소'
   - 2. git branch -m main
